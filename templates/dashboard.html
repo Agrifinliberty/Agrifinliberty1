@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="/static/js/app.js" defer></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Admin Dashboard</h1>
+    <form id="generate-code-form">
+        <label for="duration">Select Duration:</label>
+        <select id="duration" name="duration">
+            <option value="1 hour">1 Hour</option>
+            <option value="1 day">1 Day</option>
+            <option value="1 week">1 Week</option>
+        </select>
+        <button type="submit">Generate Code</button>
+    </form>
+    <div id="code-result"></div>
+</body>
+</html>
